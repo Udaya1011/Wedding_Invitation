@@ -544,7 +544,7 @@ function App() {
           className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center"
         >
         </motion.div>
-      </div>
+  
 
       {/* Details Section */}
       <section className="min-h-screen w-full flex flex-col items-center justify-center relative px-0 py-12">
