@@ -465,8 +465,8 @@ function App() {
       )}
 
       {/* Hero Section */}
-      <section className="min-h-screen w-full flex flex-col items-center justify-center relative px-0 py-20">
-        <div className="z-10 flex flex-col items-center mt-10">
+      
+        <div className="z-10 flex flex-col items-center mt-2">
           <motion.div
             initial={{ opacity: 0, scale: 0.9, filter: 'blur(10px)' }}
             animate={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
@@ -544,10 +544,10 @@ function App() {
           className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center"
         >
         </motion.div>
-      </section>
+      </div>
 
       {/* Details Section */}
-      <section className="py-32 px-0 relative z-10 flex flex-col items-center justify-center">
+      <section className="min-h-screen w-full flex flex-col items-center justify-center relative px-0 py-12">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -693,7 +693,7 @@ function App() {
           </div>
 
           {/* Adjusted Image Size and Arch Shape */}
-          <div className="w-[300px] h-[360px] relative mb-14 z-10 flex-shrink-0 mt-4">
+          <div className="w-[300px] h-[360px] relative mb-14 z-10 flex-shrink-0 mt-2">
             <div className="absolute inset-[-6px] border border-[#c5a365]/40 rounded-t-full rounded-b-md" />
             <div className="absolute inset-[-2px] border border-[#c5a365]/20 rounded-t-full rounded-b-md" />
 
@@ -705,9 +705,9 @@ function App() {
           </div>
 
           <div className="flex flex-col items-center z-10 w-full mb-8">
-            <h1 className="text-7xl text-[#c5a365] tracking-wide mb-3 font-serif">Sounder</h1>
+            <h1 className="text-6xl text-[#c5a365] tracking-wide mb-3 font-serif">Sounder</h1>
             <span className="font-['Pinyon_Script'] text-5xl text-white mt-1 mb-1 leading-none z-20 opacity-95">Weds</span>
-            <h1 className="text-7xl text-[#c5a365] tracking-wide mt-3 font-serif">Sowndharya</h1>
+            <h1 className="text-6xl text-[#c5a365] tracking-wide mt-3 font-serif">Sowndharya</h1>
           </div>
 
           <div className="mb-10 flex flex-col items-center z-10">
