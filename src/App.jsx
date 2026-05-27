@@ -226,7 +226,7 @@ function App() {
   const [showHeartAnimation, setShowHeartAnimation] = useState(false);
   
   const [audio] = useState(() => {
-    const sound = new Audio('/WhatsApp Audio 2026-05-21 at 10.01.56 AM.mpeg');
+    const sound = new Audio('/remo_movie_love_bgm.mp3');
     sound.loop = true;
     return sound;
   });
@@ -466,7 +466,7 @@ function App() {
 
       {/* Hero Section */}
       
-        <div className="z-10 flex flex-col items-center mt-2">
+        <div className="z-10 flex flex-col items-center pt-16 md:pt-24">
           <motion.div
             initial={{ opacity: 0, scale: 0.9, filter: 'blur(10px)' }}
             animate={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
